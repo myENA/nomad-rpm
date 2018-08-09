@@ -1,0 +1,17 @@
+[Unit]
+Description=Nomad is a flexible, enterprise-grade cluster scheduler.
+Documentation=https://www.nomadproject.io
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+LimitNOFILE=65536
+EnvironmentFile=-/etc/sysconfig/nomad
+Restart=on-failure
+ExecStart=/usr/bin/nomad agent $OPTIONS
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

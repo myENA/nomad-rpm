@@ -1,0 +1,9 @@
+## When adding a new node you may need to provide an encryption key
+## by adding "-encrypt=<key>" to the below options.
+## The key can be found by running "nomad operator keyring -list" on
+## any server node in the cluster.
+
+## client configuration
+#OPTIONS="-config=/etc/nomad.d/client"
+## server configuration
+#OPTIONS="-config=/etc/nomad.d/server"
