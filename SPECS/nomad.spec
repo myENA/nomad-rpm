@@ -4,8 +4,8 @@
 %define debug_package  %{nil}
 
 Name:           nomad
-Version:        0.8.4
-Release:        1%{?dist}
+Version:        0.8.6
+Release:        0%{?dist}
 Summary:        Flexible, enterprise-grade cluster scheduler.
 
 Group:          System Environment/Daemons
