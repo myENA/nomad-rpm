@@ -1,10 +1,11 @@
 ## package settings
-%define nomad_home    %{_localstatedir}/lib/nomad
-%define nomad_confdir %{_sysconfdir}/nomad.d
+%define nomad_home     %{_localstatedir}/lib/nomad
+%define nomad_confdir  %{_sysconfdir}/nomad.d
 %define debug_package  %{nil}
+%define version_suffix -beta2
 
 Name:           nomad
-Version:        0.8.6
+Version:        0.9.0
 Release:        0%{?dist}
 Summary:        Flexible, enterprise-grade cluster scheduler.
 
@@ -12,7 +13,7 @@ Group:          System Environment/Daemons
 License:        Mozilla Public License, version 2.0
 URL:            https://www.nomadproject.io
 
-Source0:        https://releases.hashicorp.com/%{name}/%{version}/%{name}_%{version}_linux_amd64.zip
+Source0:        https://releases.hashicorp.com/%{name}/%{version}%{version_suffix}/%{name}_%{version}%{version_suffix}_linux_amd64.zip
 Source2:        %{name}.service
 Source3:        %{name}.sysconfig
 
