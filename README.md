@@ -24,7 +24,7 @@ docker run -v $PWD/artifacts:/tmp/artifacts -it ena/nomad-rpm  ## run the image 
 ## With Vagrant
 
 ```bash
-vagrant up                         ## provision and build the RPMs
+vagrant up       ## provision and build the RPMs
 ```
 
 ## Manual

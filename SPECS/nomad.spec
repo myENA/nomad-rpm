@@ -2,7 +2,7 @@
 %define nomad_home     %{_localstatedir}/lib/nomad
 %define nomad_confdir  %{_sysconfdir}/nomad.d
 %define debug_package  %{nil}
-%define version_suffix -beta2
+%define version_suffix -beta3
 
 Name:           nomad
 Version:        0.9.0
