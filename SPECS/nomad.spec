@@ -5,8 +5,8 @@
 %define version_suffix %{nil}
 
 Name:           nomad
-Version:        0.9.0
-Release:        2%{?dist}
+Version:        0.9.1
+Release:        0%{?dist}
 Summary:        Flexible, enterprise-grade cluster scheduler.
 
 Group:          System Environment/Daemons
