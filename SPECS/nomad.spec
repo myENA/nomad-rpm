@@ -5,7 +5,7 @@
 %define version_suffix %{nil}
 
 Name:           nomad
-Version:        0.9.3
+Version:        0.9.4
 Release:        0%{?dist}
 Summary:        Flexible, enterprise-grade cluster scheduler.
 
