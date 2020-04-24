@@ -1,5 +1,6 @@
 FROM centos:7
-MAINTAINER Aaron Hurt <ahurt@ena.com>
+MAINTAINER Aaron Hurt
+MAINTAINER Daniel Carbone <dcarbone@ena.com
 
 VOLUME ["/tmp/artifacts"]
 
